@@ -1,0 +1,314 @@
+*{margin:0;padding:0; }
+
+.asdHome {
+    margin-top: 50px;
+}
+
+.t2 {
+    font-size: 11px;
+    padding-left: 96px;
+}
+
+.t1 {
+    padding-top: 7px;
+    padding-left: 96px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.item {
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    background-color: #ea5599;
+}
+
+.box-img {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+.box-img:hover .noiden {transform: translateY(22px);transition: all 0.7s;}
+
+.mota {
+    background: #1b18139c;
+    color: white;
+    height: 191px;
+    position: relative;
+    padding-left: 7px;
+    top: -212px;
+    opacity: 0;
+}
+
+.mota:hover {opacity: 1;transition: all 0.6s;}
+
+.noiden {
+    background: #100f0fc2;
+    color: white;
+    padding-left: 10px;
+    width: 100px;
+    position: relative;
+    font-size: 15px;
+    top: -22px;
+}
+
+span.red.red1 {
+    font-size: 16px;
+}
+body{
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+.phan2 {
+    margin-top: 25px;
+}
+
+.chudam {font-weight: 700;}
+
+.footer p {
+    padding: 2px 0px;
+}
+
+.phan1 {
+    padding-top: 10px;
+    height: 100px;
+}
+
+.vienhong {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 4px solid #ed0080;
+}
+
+span.price {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 48px;
+    color: #ed0080;
+}
+
+.thongtin {
+    padding-top: 16px;
+}
+
+.tieude {
+    font-size: 16px;
+    color: #7b7878;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tieude:hover {
+    color: #ed0080;
+    transition: all 0.6s;
+}
+
+.caption {
+    margin-top: 9px;
+}
+
+.vien:hover {
+    border: 1px solid black;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.tour1 {
+    margin-top: 57px;
+}
+
+.container.search-tour {
+    position: relative;
+    top: 29px;
+    background: #F2F5F8;
+    height: 100px;
+    line-height: 100px;
+}
+
+.nen {
+	background: #ed0080;
+	height: 47px;
+	width: 47px;
+	text-align: center;
+	line-height: 51px;
+	border-radius: 50%;
+	position: relative;
+	top: 33px;
+}
+
+.search-tour.fa {
+    font-size: 22px;
+    color: white;
+}
+
+.chiadoi {
+    display: flex;
+}
+
+.menu {
+    height: 140px;
+    line-height: 130px;
+    position: relative;
+    top: 25px;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+p.fa.icon {
+    font-size: 50px;
+    position: absolute;
+    padding: 10px 20px;
+}
+
+.phan2 ul li {
+    list-style: none;
+    float: left;
+    padding-right: 5px;
+}
+
+.lh:hover {
+    color: #ed0080;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+p.chuhong {
+    color: #ed0080;
+    font-size: 17px;
+}
+
+p.congty {
+    color: #ed0080;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+p.price {
+    font-size: 20px;
+}
+.mau1{
+	background: #ed0080;
+}
+.mau2{
+	background: #1b448e;
+}
+.mau3{
+	background: #149abc;
+}
+.mau4{
+	background:#5cb1aa;
+}
+.chiadoi p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.color1 {
+    font-size: 16px;
+    color: #ed0080;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.color2 {
+    font-size: 16px;
+    color: #1b448e;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.color3 {
+    font-size: 16px;
+    color: #149abc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.color4 {
+    font-size: 16px;
+    color: #5cb1aa;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+span.red {
+    cursor: pointer;
+    color: yellow;
+    font-size: 23px;
+}
+span.red.chuyenhieuung{
+	
+	color: red;
+	transition: all 0.1s;
+}
+@-webkit-keyframes chuyenhienung {
+	0%{
+		color: yellow;
+	}
+	100%{
+		color: red;
+	transition: 0.4s;
+	}
+}
+
+p.white {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.header {
+    background: #ed0080;
+    height: 53px;
+    line-height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+ 
+ .menu ul li{
+ 	float: left;
+ 	list-style: none;
+ 	text-transform: uppercase;
+ }
+ .menu ul li a{
+ 	color: #555;
+ 	display: block;
+ 	padding: 0px 20px;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ }
+ .menu ul li a:hover {
+ 	color:#ed0080;
+ 	transition: all 0.5s;
+ }
+ .back-to-top
+ {
+ 	position: fixed;
+ 	bottom: 20px;
+ 	right: 19px;
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50%;
+ 	background: #de0e0e;
+ 	color: #fff;
+ 	font-size: 20px;
+ 	line-height: 35px;
+ 	font-weight: bold;
+ 	border: none transparent;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	visibility: hidden;
+ 	transition: all  0.7s;
+ }
+ .hienra{
+ 	visibility: visible;
+
+ }
